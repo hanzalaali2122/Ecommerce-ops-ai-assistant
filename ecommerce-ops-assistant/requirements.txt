@@ -1,0 +1,14 @@
+# Core
+fastapi
+uvicorn[standard]
+pydantic
+
+# Gemini (Chat Completions-compatible) client
+openai
+
+# Data conversion (data/convert_real_dataset.py)
+pandas
+openpyxl
+
+# Testing (prefer this; tests/run_tests.py is a zero-dependency fallback)
+pytest
